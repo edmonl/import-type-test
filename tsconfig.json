@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "emitDecoratorMetadata": true, 
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "module": "commonjs", 
+    "target": "es2019",
+    "sourceMap": true,
+    "declaration": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false
+  },
+  "include": [
+    "./app/**/*"
+  ]
+}
