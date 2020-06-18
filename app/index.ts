@@ -1,5 +1,3 @@
-import type { A } from './a';
+import { getFoo } from './utils';
 
-function a(): A {
-  return { a: 1 }; // this doesn't work no matter import type or not
-}
+console.log(getFoo().foo());
